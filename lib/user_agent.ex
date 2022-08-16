@@ -1,3 +1,2 @@
 defmodule UserAgent do
-
 end
