@@ -1,18 +1,18 @@
-defmodule TemplateModuleName.Mixfile do
+defmodule UserAgent.Generator.Mixfile do
   use Mix.Project
 
   # Also change package.json version
-  @source_url "https://github.com/gsmlg-dev/<app_otp_name>.git"
+  @source_url "https://github.com/gsmlg-dev/user_agent_generator.git"
   @version "0.0.0"
 
   def project do
     [
-      app: :<app_otp_name>,
+      app: :user_agent_generator,
       version: @version,
       elixir: "~> 1.7",
       config_path: "config/config.exs",
       deps: deps(),
-      name: "TemplateModuleName",
+      name: "UserAgent.Generator",
       description: "Phoenix view functions for working with WebComponent",
       package: package(),
       aliases: aliases(),
@@ -20,7 +20,7 @@ defmodule TemplateModuleName.Mixfile do
         extras: ["CHANGELOG.md"],
         source_url: @source_url,
         source_ref: "v#{@version}",
-        main: "TemplateModuleName",
+        main: "UserAgent.Generator",
         skip_undefined_reference_warnings_on: ["CHANGELOG.md"]
       ]
     ]
@@ -45,7 +45,7 @@ defmodule TemplateModuleName.Mixfile do
       licenses: ["MIT"],
       files: ~w(lib priv CHANGELOG.md LICENSE mix.exs package.json README.md),
       links: %{
-        Changelog: "https://hexdocs.pm/<app_otp_name>/changelog.html",
+        Changelog: "https://hexdocs.pm/user_agent_generator/changelog.html",
         GitHub: @source_url
       }
     ]

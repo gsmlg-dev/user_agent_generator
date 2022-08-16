@@ -1,8 +1,8 @@
-defmodule TemplateModuleNameTest do
+defmodule UserAgentTest do
   use ExUnit.Case, async: true
 
-  import TemplateModuleName
-  doctest TemplateModuleName
+  import UserAgent
+  doctest UserAgent
 
   test "Need add test" do
     assert true == false

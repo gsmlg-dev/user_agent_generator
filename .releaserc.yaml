@@ -1,4 +1,4 @@
-repositoryUrl: https://github.com/gsmlg-dev/<app_otp_name>.git
+repositoryUrl: https://github.com/gsmlg-dev/user_agent_generator.git
 branches:
   - main
   - next
@@ -24,5 +24,5 @@ plugins:
         sed -i 's%"~> [0-9\.]\+"},%"~> ${nextRelease.version}"},%' README.md;
         mix prepublish;
       'publishCmd' : |
-        echo pubhlish <app_otp_name> ${nextRelease.version};
+        echo pubhlish user_agent_generator ${nextRelease.version};
         mix hex.publish --yes
