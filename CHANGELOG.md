@@ -1,3 +1,11 @@
+# [1.0.0-alpha.2](https://github.com/gsmlg-dev/user_agent_generator/compare/v1.0.0-alpha.1...v1.0.0-alpha.2) (2022-08-16)
+
+
+### Bug Fixes
+
+* Fix description. ([05bc3fd](https://github.com/gsmlg-dev/user_agent_generator/commit/05bc3fd6f12741fb75c88add7233872921d75437))
+* Fix package. ([eef915e](https://github.com/gsmlg-dev/user_agent_generator/commit/eef915e1e64b2460843f94f2bd656879ab5052bb))
+
 # 1.0.0-alpha.1 (2022-08-16)
 
 
