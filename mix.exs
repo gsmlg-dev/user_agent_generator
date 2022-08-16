@@ -13,7 +13,7 @@ defmodule UserAgent.Generator.Mixfile do
       config_path: "config/config.exs",
       deps: deps(),
       name: "UserAgent.Generator",
-      description: "Phoenix view functions for working with WebComponent",
+      description: "Generate random user-agent",
       package: package(),
       aliases: aliases(),
       docs: [
