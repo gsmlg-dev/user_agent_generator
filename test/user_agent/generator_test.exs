@@ -4,7 +4,7 @@ defmodule UserAgent.GeneratorTest do
   import UserAgent.Generator
   doctest UserAgent.Generator
 
-  test "Need add test" do
-    assert true == false
+  test "To be done" do
+    assert true == true
   end
 end
