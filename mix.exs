@@ -1,7 +1,6 @@
 defmodule UserAgent.Generator.Mixfile do
   use Mix.Project
 
-  # Also change package.json version
   @source_url "https://github.com/gsmlg-dev/user_agent_generator.git"
   @version "0.0.0"
 
@@ -13,7 +12,7 @@ defmodule UserAgent.Generator.Mixfile do
       config_path: "config/config.exs",
       deps: deps(),
       name: "UserAgent.Generator",
-      description: "Phoenix view functions for working with WebComponent",
+      description: "Generate random user-agent",
       package: package(),
       aliases: aliases(),
       docs: [
@@ -35,6 +34,7 @@ defmodule UserAgent.Generator.Mixfile do
 
   defp deps do
     [
+      {:sweet_xml, "~> 0.7.1", runtime: false},
       {:ex_doc, ">= 0.0.0", only: :prod, runtime: false}
     ]
   end
@@ -43,7 +43,7 @@ defmodule UserAgent.Generator.Mixfile do
     [
       maintainers: ["Jonathan Gao"],
       licenses: ["MIT"],
-      files: ~w(lib priv CHANGELOG.md LICENSE mix.exs package.json README.md),
+      files: ~w(lib priv CHANGELOG.md LICENSE mix.exs README.md),
       links: %{
         Changelog: "https://hexdocs.pm/user_agent_generator/changelog.html",
         GitHub: @source_url

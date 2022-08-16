@@ -10,7 +10,10 @@ See the [docs](https://hexdocs.pm/user_agent_generator/) for more information.
 
 ```elixir
 UserAgent.random()
-# return random user-agent string
+# return random user-agent string from most common
+
+UserAgent.random_all()
+# return random user-agent string from all
 ```
 
 ## Install this package
