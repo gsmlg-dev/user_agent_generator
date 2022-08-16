@@ -1,4 +1,4 @@
-defmodule UserAgent.AllAgents do
+defmodule UserAgent.Data do
   # Auto generated, do not edit
 
   def all_agents() do
