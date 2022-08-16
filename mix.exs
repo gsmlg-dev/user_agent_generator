@@ -35,7 +35,7 @@ defmodule UserAgent.Generator.Mixfile do
 
   defp deps do
     [
-      {:sweet_xml, "~> 0.7.1", only: :dev, runtime: false},
+      {:sweet_xml, "~> 0.7.1", runtime: false},
       {:ex_doc, ">= 0.0.0", only: :prod, runtime: false}
     ]
   end
