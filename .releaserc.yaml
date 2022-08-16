@@ -22,7 +22,6 @@ plugins:
         sed -i 's%@version "[0-9\.]\+"%@version "${nextRelease.version}"%' mix.exs;
         mix deps.get;
         sed -i 's%"~> [0-9\.]\+"},%"~> ${nextRelease.version}"},%' README.md;
-        mix prepublish;
       'publishCmd' : |
         echo pubhlish user_agent_generator ${nextRelease.version};
         mix hex.publish --yes
