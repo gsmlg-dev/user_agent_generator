@@ -1,7 +1,6 @@
 defmodule UserAgent.Generator.Mixfile do
   use Mix.Project
 
-  # Also change package.json version
   @source_url "https://github.com/gsmlg-dev/user_agent_generator.git"
   @version "0.0.0"
 
@@ -44,7 +43,7 @@ defmodule UserAgent.Generator.Mixfile do
     [
       maintainers: ["Jonathan Gao"],
       licenses: ["MIT"],
-      files: ~w(lib priv CHANGELOG.md LICENSE mix.exs package.json README.md),
+      files: ~w(lib priv CHANGELOG.md LICENSE mix.exs README.md),
       links: %{
         Changelog: "https://hexdocs.pm/user_agent_generator/changelog.html",
         GitHub: @source_url
