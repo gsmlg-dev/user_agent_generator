@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/gsmlg-dev/user_agent_generator/compare/v1.0.0...v1.0.1) (2022-08-18)
+
+
+### Bug Fixes
+
+* Fix random and random_all. ([9594a39](https://github.com/gsmlg-dev/user_agent_generator/commit/9594a39c3283f533e8dd55fbca3dc2b0efe85d5e))
+
 # 1.0.0 (2022-08-16)
 
 
